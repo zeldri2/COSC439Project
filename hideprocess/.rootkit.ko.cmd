@@ -1,0 +1,1 @@
+cmd_/home/zac/COSC439Project/hideprocess/rootkit.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/zac/COSC439Project/hideprocess/rootkit.ko /home/zac/COSC439Project/hideprocess/rootkit.o /home/zac/COSC439Project/hideprocess/rootkit.mod.o;  true

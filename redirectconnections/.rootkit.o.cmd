@@ -1,0 +1,1 @@
+cmd_/home/zac/COSC439Project/redirectconnections/rootkit.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o /home/zac/COSC439Project/redirectconnections/rootkit.o /home/zac/COSC439Project/redirectconnections/main.o
