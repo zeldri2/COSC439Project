@@ -1,1 +1,0 @@
-cmd_/home/zac/COSC439Project/syscall/rootkit.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/zac/COSC439Project/syscall/rootkit.ko /home/zac/COSC439Project/syscall/rootkit.o /home/zac/COSC439Project/syscall/rootkit.mod.o;  true
